@@ -4,6 +4,8 @@ Rails.application.routes.draw do
 
   get "/hello" => "welcome#hello"
 
+  get "/faq" => "welcome#faq"
+
   root "welcome#index" #in sinatra you did get "/" do ..
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

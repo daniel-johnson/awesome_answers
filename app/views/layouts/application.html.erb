@@ -10,11 +10,7 @@
 
   <a href="/">Home</a>
 
-  <%= link_to("Home", root_path(abc: "hello world/")) #use this for internal references %>
-  <%= #link_to("Home", root_url) #use this for external reference. It includes the full URL. %>
-  <hr>
-
-  <% #the above does the same thing as <a href="/">Home</a> %>
+  <%= link_to "FAQ", faq_path(anchor: "question_3") %>
 
 <%= yield %>
 

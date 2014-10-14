@@ -7,4 +7,8 @@ class WelcomeController < ApplicationController
   def hello
     render text: "Hello!"
   end
+
+  def faq
+    #similarly, this goes to faq.html.erb in the views > welcome
+  end
 end
